@@ -21,9 +21,9 @@ def maior(n1, n2, n3):
 
 def main():
     # Entrada de dados
-    n1 = int(input("Digite um número: "))
-    n2 = int(input("Digite um número: "))
-    n3 = int(input("Digite um número: "))
+    n1 = int(input("Digite um número: ").strip())
+    n2 = int(input("Digite um número: ").strip())
+    n3 = int(input("Digite um número: ").strip())
 
     # Saída de dados
     maior(n1, n2, n3)
