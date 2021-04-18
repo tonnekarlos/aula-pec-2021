@@ -19,9 +19,9 @@ def maior(n1, n2, n3):
 
 
 def main():
-    n1 = int(input(""))
-    n2 = int(input(""))
-    n3 = int(input(""))
+    n1 = int(input("").strip())
+    n2 = int(input("").strip())
+    n3 = int(input("").strip())
 
     maior(n1, n2, n3)
 
